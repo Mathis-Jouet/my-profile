@@ -1,0 +1,102 @@
+/* Style de base pour un site moderne et épuré */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.profile-container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4A90E2;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.profession {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #4A90E2;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4A90E2;
+    padding-bottom: 5px;
+}
+
+.about p, .experience .job p, .skills ul, .projects ul, .contacts p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.skills ul, .projects ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.skills ul li, .projects ul li {
+    margin-bottom: 8px;
+}
+
+.experience .job {
+    margin-top: 20px;
+}
+
+.experience .job h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.experience .job p {
+    font-size: 1em;
+    color: #666;
+}
+
+.contacts a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
